@@ -5,35 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filmaer - Imagens aéreas</title>  
-    <link rel="stylesheet" href="index.css">
-
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
+  <header class="container-logo">
+    <div class="logo">
+        <img class="imagem-logo" src="./assets/logo-filmaer_c.png" title="Logotipo">
+    </div>
+		<div>
+			<nav class="navegacao-logo">
+				<a href="#sobre">Sobre</a>
+				<a href="#trabalhos">Eventos</a>
+				<a href="contatos">Contatos</a>
+      </nav>
+		</div>
+  </header>
 
-    <header>
-        <img id="logo" src="logo-filmaer_c.png" title="Logotipo">
-    </header>
+	<main>
+		<section class="video">
+			<video autoplay loop muted 
+			src="./assets/DJI_0013_1.mp4"
+			type="video/mp4">
+			</video>
+		</section>
 
-    <main>
-<hr>
+		<section class="container-sobre">
+			<div class="sobre-titulo">
+				<h1>Sobre</h1>
+			</div>
+			
+			<div class="sobre-descricao">
+				<p>
+					Somos uma equipe apaixonada por capturar o mundo de uma perspectiva única e deslumbrante. Combinando tecnologia avançada de drones e processamento de dados de última geração, oferecemos soluções inovadoras para diversas áreas, desde mapeamento e topografia até inspeções industriais e produção de conteúdo audiovisual.
+				</p>
+				<p>
+					Nossa missão é proporcionar informações precisas e imagens de tirar o fôlego utilizando a tecnologia de drones. Utilizamos equipamentos de última geração, juntamente com pilotos e técnicos altamente treinados, para garantir resultados excepcionais em cada projeto que realizamos.
+				</p>
+	
+				<p>
+					Além disso, priorizamos a segurança e o cumprimento de todas as regulamentações vigentes. Nossos pilotos são certificados e seguem as diretrizes mais rigorosas de operação de drones, garantindo a segurança das pessoas e do ambiente em que trabalhamos.
+				</p>
+	
+				<p>
+					Aqui, no nosso site, você encontrará uma ampla gama de serviços personalizados para atender às suas necessidades específicas. Seja qual for o seu setor de atuação, desde a construção civil até a agricultura de precisão, estamos prontos para oferecer soluções sob medida que maximizem a eficiência e a qualidade dos seus projetos.
+				</p>
+				
+				<p>
+					Explore nosso portfólio e veja exemplos de projetos anteriores que realizamos. Fique à vontade para entrar em contato conosco para discutir suas ideias e objetivos. Estamos ansiosos para trabalhar juntos e transformar sua visão em realidade com nossas soluções de fotogrametria e imagens aéreas com drones.
+				</p>
+				<p>
+					Junte-se a nós nessa jornada emocionante pelo mundo dos drones e descubra novas perspectivas!
+				</p>
+
+			</div>
+			
+		</section>
+
     <section>
 
-        <div class="container">
-
-            <div class="buttons">
-                <label class="labels" for="card1">EVENTOS</label>
-                <a href="filming.html" target="_parent"><img src="mavic.jpg" alt="click1" class="card" id="card1" name="card1"></a>
+        <div class="container-servicos">
+            <div class="servicos-titulo">
+                <h2>Servicos</h2>
             </div>
 
-            <div class="buttons">
-                <label class="labels" for="card2">FOTOGRAMETRIA</label>
-                <a href="photogrametry.html"><img src="curva.jpg" alt="click2" class="card" id="card2" name="card2"></a>
-            </div>
-            
-            <div class="buttons">
-                <label class="labels" for="card3">INSPEÇÕES</label>
-                <a href="Inspection.html"><img src="inspeção.png" alt="click3" class="card" id="card3" name="card3"></a>
+            <div class="servicos-imagens">
+                
+                <figure>
+                    <a href="filming.html" target="_parent"><img src="./assets/mavic.jpg" alt="click1" ></a>
+                    <figcaption>Eventos</figcaption>
+                </figure>
+
+                <figure>
+                    <a href="photogrametry.html"><img src="./assets/curva.jpg" alt="click2" ></a>
+                    <figcaption>Fotogrametria</figcaption>
+                </figure>
+
+                <figure>
+                    <a href="Inspection.html"><img src="./assets/inspeção.png" alt="click3" ></a>
+                    <figcaption>Inpeção</figcaption>
+                </figure>
+                
             </div>
     
         </div>
