@@ -1,0 +1,193 @@
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+img#logo{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    width: 380px;
+}
+
+h1{
+    font: bold 40px calibri, times;
+    text-align: center;
+    margin: 5px;
+    color: rgb(53, 53, 53);
+}
+
+div#intro{
+    margin: auto;
+    text-align: justify;
+    font: normal 22px calibri;
+    color: rgb(32, 32, 32);
+    width: 1500px;
+    padding-bottom: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+p#ini{
+    margin:30px;
+}
+
+.card{
+    width: 350px;
+    height: 220px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: 70%;
+    margin: 10px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.308);
+    opacity: 1;
+    transition: width 0.3s, height 0.3s;
+}
+
+.card:hover{
+    opacity: 0.3;
+    width: 400px;
+   
+}
+
+.container{
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+p#staff{
+    font: normal 20px calibri;
+    color: rgb(32, 32, 32);
+    text-align: justify;
+    padding: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font: bold 30px calibri;
+    color: rgb(36, 36, 36);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+}
+
+.labels{
+    top: 145px;
+    left: 0px;
+    color: rgb(49, 49, 49);
+    opacity: 1;
+    z-index: 1;
+}
+
+hr{
+    max-width: 1600px;
+    border-style: solid;
+    border-color: rgb(25, 70, 167);
+}
+
+video{
+    width: 600px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+footer{
+    font: normal 20px calibri;
+    color: rgb(255, 255, 255);
+    height: 80px;
+    position: relative;
+    align-items: center;
+}
+
+img#whats{
+    width: 50px;
+}
+
+img#insta{
+    width: 50px;
+}
+
+@media (max-width: 1300px){
+
+    body{
+    padding: 0px;
+    }
+
+    div#intro{
+        background-color: rgb(255, 255, 255);
+        color: white;
+        font: normal 40px calibri;
+        padding: 40px;
+    }
+
+    img#logo{ 
+        width: 270px;
+        margin-top: 20px;
+    }
+
+    .card{
+        width: 320px;
+        height: 160px;
+        object-fit: cover;
+        object-position: 40%;
+        margin: 5px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font: bold 30px calibri;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon_label{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    div#whats{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    hr{
+        width: 260px;
+    }
+
+    div#intro{
+        width: 330px;
+        text-align: center;
+        align-items: center;
+    }
+
+    #intro h1{
+        margin: 10px;
+        margin-bottom: 30px;
+        font: bold 25px calibri;
+        text-align: center;
+    }
+
+    #intro p{
+        color:rgb(97, 97, 97);
+        text-align: justify;
+        font: normal 25px calibri;
+        margin: 0%;
+        
+    }
+
+}

@@ -1,0 +1,304 @@
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+img#logo{
+    margin-bottom: 30px;
+    margin-top: 2px;
+    width: 380px;
+}
+
+.card{
+    width: 350px;
+    height: 220px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: 70%;
+    margin: 10px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.308);
+    opacity: 1;
+}
+
+.card:hover{
+    opacity: 0.3;
+}
+
+.container{
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+p#staff{
+    font: normal 20px calibri;
+    color: rgb(61, 61, 61);
+    text-align: justify;
+    padding: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font: bold 30px calibri;
+    color: rgb(0, 0, 0);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+}
+
+.labels{
+    top: 145px;
+    left: 0px;
+    color: rgb(34, 34, 34);
+    opacity: 1;
+    z-index: 1;
+}
+
+hr{
+    max-width: 1600px;
+    border-style: solid;
+    border-color: rgb(25, 70, 167);
+}
+
+video{
+    width: 600px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+footer{
+    font: normal 20px calibri;
+    color: rgb(255, 255, 255);
+    height: 80px;
+    position: fixed;
+}
+
+.icon{
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.icon_label{
+    margin-right: 60px;
+}
+
+img#whats{
+    width: 50px;
+}
+
+img#insta{
+    width: 50px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+img#logo{
+    margin-bottom: 30px;
+    margin-top: 2px;
+    width: 380px;
+}
+
+.card{
+    width: 350px;
+    height: 220px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: 70%;
+    margin: 10px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.308);
+    opacity: 1;
+}
+
+.card:hover{
+    opacity: 0.3;
+}
+
+.container{
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+p#staff{
+    font: normal 20px calibri;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    padding: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font: bold 30px calibri;
+    color: rgb(0, 0, 0);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+}
+
+.labels{
+    top: 145px;
+    left: 0px;
+    color: rgb(37, 37, 37);
+    opacity: 1;
+    z-index: 1;
+}
+
+hr{
+    max-width: 1600px;
+    border-style: solid;
+    border-color: rgb(25, 70, 167);
+}
+
+video{
+    width: 600px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+footer{
+    font: normal 20px calibri;
+    color: rgb(255, 255, 255);
+    height: 80px;
+    position: fixed;
+}
+
+.icon{
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.icon_label{
+    margin-right: 60px;
+}
+
+img#whats{
+    width: 50px;
+}
+
+img#insta{
+    width: 50px;
+}
+
+
+@media (max-width: 1300px){
+
+    img#logo{ 
+    width: 270px;
+    margin-top: 20px;
+    }
+
+    body{
+    padding: 0px;
+    }
+
+    .card{
+    width: 360px;
+    height: 160px;
+    object-fit: cover;
+    object-position: 40%;
+    margin: 5px;
+    }
+
+    .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font: bold 30px calibri;
+    color: white;
+    margin-bottom: 20px;
+    }
+
+    .container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .icon_label{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    div#whats{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media (max-width: 1300px){
+
+    img#logo{ 
+    width: 270px;
+    margin-top: 20px;
+    }
+
+    body{
+    padding: 0px;
+    }
+
+    .card{
+    width: 360px;
+    height: 160px;
+    object-fit: cover;
+    object-position: 40%;
+    margin: 5px;
+    }
+
+    .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font: bold 30px calibri;
+    color: white;
+    margin-bottom: 20px;
+    }
+
+    .container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .icon_label{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    div#whats{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #intro > h1{
+        
+        text-align: center; /* Alinha o texto ao centro */
+        color: rgb(255, 0, 0); /* Define a cor do texto como azul */
+        
+    }
+
+}

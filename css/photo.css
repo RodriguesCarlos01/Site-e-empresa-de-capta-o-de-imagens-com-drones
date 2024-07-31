@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(36, 52, 124);
+    margin: 30px;
+}
+
+h2{
+    font: bold 30px calibri;
+    color: white;
+  
+}
+
+p#photo{
+    font: normal 20px calibri;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    min-width: 300px;
+    max-width: 580px;
+
+}
+
+img#logo2{
+    width: 200px;
+    
+}
+
+hr{
+    border-style: solid;
+    color: white;
+    
+}
